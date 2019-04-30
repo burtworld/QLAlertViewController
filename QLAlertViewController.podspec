@@ -27,10 +27,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'QLAlertViewController/Classes/**/*'
+  s.source_files = 'Classes/**/*'
   
   # s.resource_bundles = {
-  #   'QLAlertViewController' => ['QLAlertViewController/Assets/*.png']
+  #   'QLAlertViewController' => ['Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
