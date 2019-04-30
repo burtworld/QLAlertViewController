@@ -23,11 +23,12 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Paramita' => 'baqkoo007@aliyun.com' }
-  s.source           = { :git => 'https://github.com/burtworld/QLAlertViewController.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/burtworld/QLAlertViewController.git', :tag => s.version }
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'QLAlertViewController/Classes/**/*'
+    #s.source_files = 'QLAlertViewController/Classes/**/*'
+    s.source_files  = "QLAlertViewController/Classes", "QLAlertViewController/Classes/**/*.{h,m}"
   
   # s.resource_bundles = {
   #   'QLAlertViewController' => ['QLAlertViewController/Assets/*.png']
