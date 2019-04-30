@@ -1,0 +1,22 @@
+{
+  "name": "QLAlertViewController",
+  "version": "0.1.0",
+  "summary": "A short description of QLAlertViewController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Paramita/QLAlertViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Paramita": "baqkoo007@aliyun.com"
+  },
+  "source": {
+    "git": "https://github.com/Paramita/QLAlertViewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QLAlertViewController/Classes/**/*"
+}
